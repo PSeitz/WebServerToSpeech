@@ -14,7 +14,7 @@ app.get("/say/:text", function (req, res) {
     console.log(req.params.text);
     res.send(req.params.text);
 
-    var command = 'cd /home/pi/Dev/picopi/pico/tts/;say "'+req.params.text+'" | aplay --rate=16000 --channels=1 --format=S16_LE'
+    var command = 'cd /home/pi/Dev/picopi/pico/tts/;./testtts "'+req.params.text+'" | aplay --rate=16000 --channels=1 --format=S16_LE'
 
     var child = child = exec(command,
       function (error, stdout, stderr) {
