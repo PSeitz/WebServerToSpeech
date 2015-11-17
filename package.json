@@ -1,0 +1,24 @@
+{
+  "name": "webtosay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PSeitz/WebServerToSpeech.git"
+  },
+  "author": "Pascal Seitz <pascal.seitz@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PSeitz/WebServerToSpeech/issues"
+  },
+  "homepage": "https://github.com/PSeitz/WebServerToSpeech#readme"
+}
